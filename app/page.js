@@ -1,19 +1,19 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
-
 import RightCard from "./components/RightCard";
 import LeftCard1 from "./components/LeftCard1";
 import LeftCard2 from "./components/LeftCard2";
 import LeftCard3 from "./components/LeftCard3";
 import LeftCard4 from "./components/LeftCard4";
-
+import Companies from "./components/companies";
 export default function Home() {
   return (
     <div>
       <Navbar />
       <Navbar2 />
-      <div className="flex">
+      <Companies/>
+      <div style={{backgroundColor:"white"}} className="flex">
         <div className="w-5/12">
           <LeftCard1 />
           <LeftCard2 />
